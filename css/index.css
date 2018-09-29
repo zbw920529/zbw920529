@@ -46,20 +46,24 @@
 		text-decoration: none;
 		line-height: 0.16rem;
 	}
+	.nav-2 a:link{
+		text-decoration: none;
+		color: #ffffff;
+	}
 	.nav-2 a:hover{
 		text-decoration: none;
 		color: #ffffff;
+		border-bottom: #3CC0FF 3px solid;
 	}
 	.nav-2 a:visited{
 		text-decoration: none;
-		color: #ffffff;
+		color: #3CC0FF;
 	}
-	.nav-2-1{
-		display: block;
-		width: 0.101171875rem;
-		color:#3cc0ff;
-		border-bottom: #3CC0FF 3px solid;
+	.nav-2 a:active{
+		text-decoration: none;
+		color: #3CC0FF;
 	}
+
 
 	.nav-3{
 		top: 0.033203125rem;

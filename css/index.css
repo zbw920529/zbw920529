@@ -190,7 +190,7 @@ h2{
 	}
 	.aboutUs-2-2-1{
 		display: inline-block;
-		background: url(../img/image_jt.png)no-repeat 2px;
+		background: url(../img/image_jt.png)no-repeat 0.01rem 0.016rem;
 		text-indent: 15px;
 		background-size: 20%;
 	}
@@ -280,9 +280,9 @@ h2{
 	}
 	.productCase-3-1-2-1 a{
 		text-align: right;
-		background: url(../img/image_jt.png)no-repeat;
+		background: url(../img/image_jt.png)no-repeat 0.02rem 2px;
 		padding-left: 0.05rem;
-		background-size: 30%;
+		background-size: 20%;
 	}
 	
 	.productCase-3-1-2 img{

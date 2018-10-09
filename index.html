@@ -39,10 +39,23 @@
 			</div>
 			<div class="nav-2">
 				<a href="#" class="nav-2-1">首页</a>
-				<a href="#aboutUs" id="dddd">关于我们</a>
+				<a href="#aboutUs">关于我们</a>
 				<a href="#productCase">产品展示</a>
 				<a href="#partner">合作伙伴</a>
 			</div>
+			<script>
+				var Oa = document.getElementsByTagName("a");
+				for (var i = 0; i < Oa.length; i++) {
+					Oa[i].onmouseover = function(){
+						console.log(i);
+						for (var j = 0; j < Oa.length; j++) {
+							Oa[j].className = '';
+						}
+						this.className = "nav-2-1";
+					}
+				}
+				
+			</script>
 			<div class="nav-3">
 				<input type="search" placeholder="在站内搜索" id="findinput"/>
 			</div>
@@ -59,7 +72,7 @@
 									<li data-target="#myCarousel" data-slide-to="2" class="active11"></li>
 								</ol>   
 								<!-- 轮播（Carousel）项目 -->
-								<div class="carousel-inner">
+								<div class="carousel-inner" id="testImage">
 									<div class="item active">
 										<img src="img/banner_1.jpg" alt="First slide">
 									</div>
@@ -76,6 +89,7 @@
 							
 						</div>
 		</div>
+		
 		<!-- 关于我们 -->
 		<div class="container-fluid aboutUs" id="aboutUs">
 			<div class="row">
@@ -85,10 +99,10 @@
 						<img src="img/image_xh2.jpg">
 						<h2>NEW MIRACLE</h2>
 						<p>专注时尚行业全渠道运营、大数据开发、智能商品管理的软件开发。
-						我们致力于研究时尚行业在互联网环境下全渠道一体化运营模式</p><p><small>
+						我们致力于研究时尚行业在互联网环境下全渠道一体化运营模式。<small>
 						重点通过大数据、人工智能等技术，创建一套商品全生命周期的智能调补货系统，
 						通过科学数据和算法代替人工决策，实现自动化智能商品管理，
-						为时尚行业提供包含业务咨询和软硬件在内的一体化节俭方案</small></p>
+						为时尚行业提供包含业务咨询和软硬件在内的一体化节俭方案。</small></p>
 				</div>
 				<div class="aboutUs-2-2">
 					<img src="img/image_logo2.png" class="">
@@ -116,35 +130,33 @@
 					<img src="img/image_xh2.jpg" >
 				</div>
 					<!-- 弹出窗口 -->
-				<div class="productCase-2" id="div2">
+					<div class="zzhao" id="div2">
+				<div class="productCase-2" >
 					<div class="productCase-2-1">
 						<div class="productCase-2-1-1">
 							产品名称
 						</div>
 						<div class="productCase-2-1-2">
-							<img src="img/alert/btn_close2.jpg" id="productCase-2-1-2-4" onclick="bb()">
+							<img src="img/alert/btn_close.jpg" id="productCase-2-1-2-4" onclick="bb()">
 						</div>
 						
 					</div>
-					<div class="productCase-2-2">
+					<div class="productCase-2-2" id="div4" style="background: white;">
 						<div class="productCase-2-2-1">
 							<img src="img/alert/image_tkzt.jpg" class="productCase-2-1-1-1">
 						</div>
 						<div class="productCase-2-2-2">
 						<p>重点通过大数据、人工智能等技术，创建一套商品全生命周期的智能调补货系统， 通过科学数据和算法代替人工决策，实现自动化智能商品管理， 为时尚行业提供包含业务咨询和软硬件在内的一体化节俭方案
-						重点通过大数据、人工智能等技术，创建一智能调补货系统， 通过科学数据和算法代替人工决策，实现自动化智能商品管理， 为时尚行业提供包含业务咨询和软硬件在内的一体化节俭方案
+						重点通过大数据、人工智能等技术，创建一智能调补货系统， 通过科学数据和算法代替人工决策，实现自动化智能商品管理， 为时尚行业提供包含业务咨询和软硬件在内的一体化节俭方案<br />
 						重点通过大数，创建一套商品全生命周期的智能调补货系统， 通过科学数据和算法代替人工决策，实现自动化智能商品管理， 为时尚行业提供包含业务咨询和软硬件体化节俭方案点通过大数据、人工智能等技术，创建一套商品全生命周期的智能调补货系统， 通过科学数据和算法代替人工决策，实现自动化智能商品管理， 为时尚行业提供包含业务咨询和软硬件在内的一体化节俭方案
-						重点通过大数据、人工智能等技术，创建一套商品全生命周期的智能调补货系统， 通过科学数据和算法代替人工决策，实现自动化智能商品管理， 为时尚行业提供包含业务咨询和软硬件在内的一体化节俭方案
+						重点通过大数据、人工智能等技术，创建一套商品全生命周期的智能调补货系统， 通过科学数据和算法代替人工决策，实现自动化智能商品管理， 为时尚行业提供包含业务咨询和软硬件在内的一体化节俭方案<br />
 					重点通过大数据、人工智能等技术，创建一套商品全生命周期的智能调补货系统， 通过科学数据和算法代替人工决策，实现自动化智能商品管理， 为时尚行业提供包含业务咨询和软硬件在内的一体化节俭方案
 						重点通过大数，创建一套商品全生命周期的智能调补货系统， 通过科学数据和算法代替人工决策，实现自动化智能商品管理， 为时尚行业提供包含业务咨询和软硬件在内的一体化节俭方案</p>
-						
-						
+
 						</div>
 					</div>
 				</div>
-				
-				
-				
+				</div>
 				<div class="productCase-3">
 				<div class="productCase-3-1">
 					<div class="productCase-3-1-1">
@@ -161,14 +173,7 @@
 					<div class="productCase-3-1-2">
 						重点通过大数据、人工智能等技术，创建一套商品全生命周期的智能调补货系统， 通过科学数据和算法代替人工决策，实现自动化智能商品管理， 为时尚行业提供包含业务咨询和软硬件在内的一体化节俭方案<div class="productCase-3-1-2-1"><a href="#" onclick="aa()" target="_self">更多详情</a></div>
 					</div>
-					<script>
-						function aa(){
-							document.getElementById("div2").style.display="block"
-						}
-						function bb(){
-							document.getElementById("div2").style.display="none"
-						}
-					</script>
+					
 				</div>
 			</div>
 			</div>
@@ -266,6 +271,19 @@
 			</div>
 			</div>
 		</div>
-<script src="js/script.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+	<script>
+		function aa(){
+			// document.getElementById("div3").style.opacity="0.5";
+			document.getElementById("div2").style.display="block";
+			// document.getElementById("div4").style.opacity="1";
+
+			
+		}
+		function bb(){
+			document.getElementById("div2").style.display="none"
+			// document.getElementById("div3").style.opacity="1"
+		}
+	</script>
 	</body>
 </html>

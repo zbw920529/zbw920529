@@ -69,14 +69,15 @@ h2{
 	}
 
 	.nav-2 a:visited{
+		color: #3CC0FF;
 		text-decoration: none;
 		border-bottom: 3px solid #3CC0FF;
 	}
-	.nav-2 a:active{
+/* 	.nav-2 a:active{
 		text-decoration: none;
 		color: #3CC0FF;
 		border-bottom: 3px solid #3CC0FF;
-	}
+	} */
 
 
 	.nav-3{
@@ -87,7 +88,7 @@ h2{
 	}
 	.nav-3 input{
 		background: url(../img/image_search.png) no-repeat 0.45484375rem;
-		background-size: 10%;
+		background-size: 0.048828125rem 0.046875rem;
 		display: block;
 		width: 0.546rem;
 		height: 0.087rem;
@@ -183,18 +184,22 @@ h2{
 	}
 	.aboutUs-2-2 p small{
 		display: block;
+		font-size: 0;
 		font-family: myFirstFont;
 		color: #929292;
 		line-height: 0.065rem;
 		margin-top: 0.0546875rem;
 		font-size: 0.03125rem;
-		margin: 0.03617rem 0.02929rem;
+		padding: 0.03617rem 0.02329rem;
 	}
 	.aboutUs-2-2-1{
 		display: inline-block;
 		background: url(../img/image_jt.png)no-repeat 0.00rem 0.01771875rem;
 		text-indent: 0.046rem;
 		background-size: 0.0351625rem;
+		text-align: right;
+		position: absolute;
+		right: 0.023837890625rem;
 	}
 	.aboutUs-2-2-1 a {
 		text-decoration: underline;
@@ -279,9 +284,11 @@ h2{
 	}
 	.productCase-3-1-2-1{
 		display: inline-block;
-		position: relative;
+		position: absolute;
 		width: 100%;
 		text-align: right;
+		bottom: 0;
+		right: 0;
 	}
 	.productCase-3-1-2-1 img{
 		width: 0.03515625rem;
@@ -292,6 +299,7 @@ h2{
 		background: url(../img/image_jt.png)no-repeat 0.02rem 2px;
 		padding-left: 0.07rem;
 		background-size: 0.03515625rem;
+		bottom: 0;
 	}
 	
 	.productCase-3-1-1{
@@ -299,13 +307,14 @@ h2{
 		float: left;
 	}
 	.productCase-3-1-2{
+		position: relative;
 		font-size: 0.03125rem;
 		line-height: 0.06rem;
-		top: 0.0566406rem;
+		top: 0.0115234375rem;
 		text-align: left;
 		padding-left: 0.05078rem;
 		float: left;
-		height: 0.400rem;
+		height: 0.45703125rem;
 		width: 0.56203125rem;
 	}
 	.productCase-3-1-2 a{
@@ -420,7 +429,7 @@ h2{
 	.partner-2-1 p{
 		position: absolute;
 		left: 0.165rem;
-		bottom: 0.0001rem;
+		bottom: 0.0066rem;
 		color: #a1a1a1;
 		font-size: 0.035156rem;
 	}
@@ -498,8 +507,11 @@ h2{
 		border-left: 2px solid white;
 	}
 	.footer-1-3-1{
+		position: relative;
 		height: 0.5rem;
 		width: 0.02929rem;
+		top: -0.009765625rem;
+		/* margin-top:0.10964rem; */
 		margin-left: 0.05rem;
 		line-height:0.0489rem;
 	}

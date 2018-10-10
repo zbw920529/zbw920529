@@ -1,8 +1,10 @@
 @font-face
 {
 font-family: myFirstFont;
-src: url('../font/msyh.ttc')
+src: url('../font/msyh.ttc');
+src: url('../font/yahei.eot') format('eot'), /* IE6-IE8 */
 }
+
 h2{
 	font-weight: bold;
 }
@@ -12,6 +14,7 @@ h2{
 		margin: 0;
 		font-family: myFirstFont;
 		font-size: 0.03125rem;
+		-webkit-text-size-adjust:none
 	}
 	a{
 		text-decoration:underline;
@@ -93,10 +96,10 @@ h2{
 		width: 0.546rem;
 		height: 0.087rem;
 		color: #cbd3e9;
+		line-height: 0;
 		text-indent: 1em;
 		border: 2px solid #ffffff;
 	}
-	
     input::-webkit-input-placeholder {
             color: #CBD3E9;
         }
@@ -301,7 +304,9 @@ h2{
 		background-size: 0.03515625rem;
 		bottom: 0;
 	}
-	
+	.productCase-3-1-2{
+		overflow: hidden;
+	}
 	.productCase-3-1-1{
 		position: relative;
 		float: left;
@@ -330,7 +335,7 @@ h2{
 		width: 100%;
 		top: 0;
 		left: 0;
-		background: rgb(0,0,0,0.7);
+		background-color:rgba(0,0,0,0.7);
 		z-index: 100;
 	}
 	.productCase-2{
@@ -470,7 +475,7 @@ h2{
 		line-height: 0.0429rem;
 	}
 	.footer-1-1 h3{
-		margin-top: 0.10964rem;
+		margin-top: 0.15964rem;
 		font-size: 0.046875rem;
 		margin-bottom: 0.0327rem;
 		
@@ -485,7 +490,7 @@ h2{
 	}
 	.footer-1-3{
 		width: 0.5273rem;
-		padding-top: 0.1194rem;
+		padding-top: 0.1694rem;
 		margin-left:0.2rem;
 	}
 	.footer-3{

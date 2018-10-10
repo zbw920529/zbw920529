@@ -7,6 +7,7 @@ h2{
 	color: #0065e2;
 	font-family:"arial rounded mt bold";
 	font-size: 2.2rem;
+	font-weight: bold;
 }
 h3{
 	font-size: 24px;
@@ -58,12 +59,6 @@ h3{
   .about-2 img{
   	margin-bottom: 20px;
   }
- .about-2 span{
-	 font-size: 16px;
-	 
-	 display: block;
-	 text-indent: 2em;
- }
  .about-2 h2{
  	margin-bottom: 20px;
  }
@@ -72,6 +67,10 @@ h3{
 	 font-size: 16px;
 	 padding: 10px 15px;
 	 font-family: "microsoft yahei";
+ }
+ .about-3 a{
+ 	background: url(../img/image_jt.png)no-repeat 0;
+	padding-left: 15px;
  }
   @media (min-width: 540px){
 	.col-lg-8-3{
@@ -128,7 +127,7 @@ margin: 30px 0 40px 0;
 	width: 100%;
 	top: 0;
 	left: 0;
-	background: rgb(0,0,0,0.7);
+	background: rgba(0,0,0,0.7);
 	z-index: 99;
 }
 .Product-3{

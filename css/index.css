@@ -171,7 +171,7 @@ h2{
 	}
 	.aboutUs-2{
 		position: absolute;
-		top: 0.34765625rem;
+		top: 0.36265625rem;
 		background: #008B8B;
 	}
 	.aboutUs-2-1{
@@ -181,7 +181,7 @@ h2{
 		line-height: 0.072rem;
 	}
 	.aboutUs-2-2{
-		left: 1.58984375rem;
+		left: 1.52514375rem;
 		position: absolute;
 		width: 0.708984375rem;
 	}
@@ -208,7 +208,7 @@ h2{
 		text-decoration: underline;
 	}
 	.aboutUs-2-3{
-		left: 2.4277rem;
+		left: 2.378rem;
 		position: absolute;
 		width: 0.708984375rem;
 	}
@@ -231,7 +231,7 @@ h2{
 		width: 100%;
 		text-align: center;
 		height: 1.568359375rem;
-		background: url(../img/bg_logo.png)no-repeat rgb(236,236,236) 0.480859375rem 0px;
+		background: url(../img/bg_logo.png)no-repeat rgb(236,236,236) center;
 		background-size: 72%;
 	}
 	.productCase-1{
@@ -257,7 +257,7 @@ h2{
 
 	.productCase-3{
 		position: absolute;
-		left: 0.712890625rem;
+		left: 0.7290625rem;
 		width: 2.32421875rem;
 		margin: 0 auto;
 		color: #939393;

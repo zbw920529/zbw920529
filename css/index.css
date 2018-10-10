@@ -227,7 +227,7 @@ h2{
 	}
 	/* 产品介绍 */
 	.productCase{
-		margin: auto;
+		position: relative;
 		width: 100%;
 		text-align: center;
 		height: 1.568359375rem;
@@ -240,33 +240,33 @@ h2{
 		width: 100%;
 		height: 0.53828125rem;
 		color: #a7a7a7;
-/* 		line-height: 0.026rem; */
-		top: -0.039rem;
-		position: relative;
+		top: -0.059rem;
+		margin-top: 0.255859375rem;
+		position: absolute;
 	}
 	
-	.productCase-1 img{
-		margin-top: 0.068rem;
-	}
 	.productCase-1 p{
+		margin-top: -0.0109375rem;
 		font-size: 0.046875rem;
-		line-height:33px;
+		line-height:0.025rem;
 	}
 	
 	.productCase-1 h2{
-		margin-top: 0.255859375rem;
 		font-size: 0.0703125rem;
 		color: #0065e2;
 		text-align: center;
+	}
+	.productCase-1 img{
+		margin-top: -0.085640625rem;
 	}
 	.productCase-3{
 		position: absolute;
 		left: 0.712890625rem;
 		width: 2.32421875rem;
 		margin: 0 auto;
-		top: 3.936rem;
+		/* margin-top: 0.115rem; */
 		color: #939393;
-		bottom: 0.365234rem;
+		bottom: 0.277265625rem;
 	}
 	.productCase-3-1{
 		position: relative;
@@ -416,8 +416,7 @@ h2{
 		left: 0.693359rem;
 		width: 2.36328rem;
 		height: 0.6675rem;
-		top: 0.62rem;
-	/* 	background: #333333; */
+		top: 0.556953125rem;
 	}
 	.partner-2-1{
 		position: relative;
@@ -434,7 +433,7 @@ h2{
 	.partner-2-1 p{
 		position: absolute;
 		left: 0.165rem;
-		bottom: 0.0066rem;
+		bottom: -0.00303125rem;
 		color: #a1a1a1;
 		font-size: 0.035156rem;
 	}
@@ -444,12 +443,11 @@ h2{
 		height: 0.35648375rem;
 		bottom: 0;
 		text-align: center;
-		/* background: #008B8B; */
 	}
 	.partner-3 img{
 		width: 0.583984rem;
 		height:0.125rem;
-		margin-top: 0.10546875rem;
+		margin-top: 0.03546875rem;
 		margin-bottom:0.166015rem ;
 		
 	}
@@ -475,7 +473,7 @@ h2{
 		line-height: 0.0429rem;
 	}
 	.footer-1-1 h3{
-		margin-top: 0.15964rem;
+		margin-top: 0.162109375rem;
 		font-size: 0.046875rem;
 		margin-bottom: 0.0327rem;
 		
@@ -490,7 +488,7 @@ h2{
 	}
 	.footer-1-3{
 		width: 0.5273rem;
-		padding-top: 0.1694rem;
+		padding-top: 0.162109375rem;
 		margin-left:0.2rem;
 	}
 	.footer-3{
@@ -510,6 +508,7 @@ h2{
 		line-height:0.065rem ;
 		padding-left: 0.0333rem;
 		border-left: 2px solid white;
+		margin-bottom: -0.5rem;
 	}
 	.footer-1-3-1{
 		position: relative;

@@ -86,7 +86,7 @@ h2{
 	.nav-3{
 		top: 0.033203125rem;
 		position: absolute;
-		right:0.712890625rem;
+		right:0.662890625rem;
 		line-height: 0.16rem;
 	}
 	.nav-3 input{
@@ -170,7 +170,7 @@ h2{
 		height: 0.05859375rem;
 	}
 	.aboutUs-2{
-		position: relative;
+		position: absolute;
 		top: 0.34765625rem;
 		background: #008B8B;
 	}
@@ -208,7 +208,7 @@ h2{
 		text-decoration: underline;
 	}
 	.aboutUs-2-3{
-		right: 0.6835rem;
+		left: 2.4277rem;
 		position: absolute;
 		width: 0.708984375rem;
 	}
@@ -426,7 +426,7 @@ h2{
 	.partner-2-1 p{
 		position: absolute;
 		left: 0.165rem;
-		bottom: 0.031rem;
+		bottom: 0.041rem;
 		margin-bottom: 0;
 		color: #a1a1a1;
 		font-size: 0.035156rem;

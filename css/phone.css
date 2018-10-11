@@ -59,6 +59,12 @@ h3{
   .about-2 img{
   	margin-bottom: 20px;
   }
+ .about-2 span{
+	 font-size: 16px;
+	 
+	 display: block;
+	 text-indent: 2em;
+ }
  .about-2 h2{
  	margin-bottom: 20px;
  }
@@ -70,7 +76,7 @@ h3{
  }
  .about-3 a{
  	background: url(../img/image_jt.png)no-repeat 0;
-	padding-left: 15px;
+	padding-left: 20px;
  }
   @media (min-width: 540px){
 	.col-lg-8-3{
@@ -127,7 +133,7 @@ margin: 30px 0 40px 0;
 	width: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(0,0,0,0.7);
+	background: rgb(0,0,0,0.7);
 	z-index: 99;
 }
 .Product-3{
@@ -138,7 +144,7 @@ margin: 30px 0 40px 0;
 	top: 15rem;
 	left: 10%;
 	width: 80%;
-	border: 1px solid darkgray;
+/* 	border: 1px solid darkgray; */
 }
 .Product-3-1{
 	position: relative;
@@ -146,14 +152,18 @@ margin: 30px 0 40px 0;
 	line-height: 2rem;
 	height:100% ;
 	width: 100%;
-	border-bottom: 2px solid blue;
 }
 .Product-3-1-1{
-	padding-left: 1rem;
+	text-indent: 1rem;
 	position: relative;
 	float: left;
+	height: 2rem;
 	width: 88%;
+	font-family: "microsoft yahei";
 	background: #929292;
+	color: #5D5D5D;
+	font-weight: bold;
+	border-bottom: 1px solid blue;
 }
 .Product-3-1-2{
 	position: relative;
@@ -162,6 +172,7 @@ margin: 30px 0 40px 0;
 	height: 2rem;
 	width: 12%;
 	background: rgb(234,234,234);
+	border-bottom: 1px white solid;
 }
 .Product-3-1-2 img{
 	position: absolute;
@@ -198,7 +209,7 @@ margin: 30px 0 40px 0;
 /* 合作伙伴 */
 .partner-1 span{
 	position: absolute;
-	top: 81%;
+	top: 80%;
 	left:20%;
 	color: #a1a1a1;
 	font-size: 18px;
@@ -238,9 +249,6 @@ margin: 30px 0 40px 0;
 	 background: url(../img/image_bgdb.jpg)no-repeat;
 	 background-size: 200%;
  }
- .foot-1 .col-12{
-	padding: 0 10px;
- }
  .foot-1-11{
 	 margin: 30px 0 10px 0;
  }
@@ -260,6 +268,7 @@ margin: 30px 0 40px 0;
 	 text-indent: 25px;
  }
  .foot-3-1{
+	 margin-left: 10px;
 	 border-left: 2px solid #FFFFFF;
 	 padding-left: 17px;
 	 font-size: 1.4rem;

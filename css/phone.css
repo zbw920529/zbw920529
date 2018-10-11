@@ -133,7 +133,7 @@ margin: 30px 0 40px 0;
 	width: 100%;
 	top: 0;
 	left: 0;
-	background: rgb(0,0,0,0.7);
+	background: rgba(0,0,0,0.7);
 	z-index: 99;
 }
 .Product-3{
@@ -144,7 +144,6 @@ margin: 30px 0 40px 0;
 	top: 15rem;
 	left: 10%;
 	width: 80%;
-/* 	border: 1px solid darkgray; */
 }
 .Product-3-1{
 	position: relative;
@@ -187,6 +186,8 @@ margin: 30px 0 40px 0;
 	width: 100%;
 	padding: 1rem;
 	background: #FFFFFF;
+	border: 1px solid darkgray;
+	border-top: none;
 }
 .Product-3-2-1{
 	position: relative;
